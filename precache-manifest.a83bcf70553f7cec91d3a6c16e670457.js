@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dac01e91583ee7717134fa12761959ec",
+    "revision": "208ac0b2bfe9e30cc5035f961ab948bc",
     "url": "/star-wars-database/index.html"
   },
   {
-    "revision": "8a7fcd61ddfd15889501",
+    "revision": "fd835e78fda5049a81a0",
     "url": "/star-wars-database/static/css/main.c8e09488.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/star-wars-database/static/js/2.a408e622.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8a7fcd61ddfd15889501",
-    "url": "/star-wars-database/static/js/main.c10b6f10.chunk.js"
+    "revision": "fd835e78fda5049a81a0",
+    "url": "/star-wars-database/static/js/main.3307bc58.chunk.js"
   },
   {
     "revision": "78eeeff4a11c39ce078c",
