@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
+import PlanetsProvider from './context/PlanetsProvider';
+import FilterForm from './components/FilterForm';
+import Loading from './components/Loading';
+import Table from './components/Table';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <PlanetsProvider>
+      <h1 className="m-3">Star Wars Planet Searcher</h1>
+      <FilterForm />
+      <Table />
+      <Loading />
+    </PlanetsProvider>
   );
 }
 
